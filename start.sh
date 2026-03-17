@@ -1,42 +1,38 @@
 #!/bin/bash
-
-# Exit on any error
 set -e
 
 echo "🚀 Starting Realtime Team Chat App..."
 
 # -------------------------------
-# 1️⃣ Start Backend
+# 1️⃣ Install backend dependencies
 # -------------------------------
-echo "📦 Installing backend dependencies..."
 cd realtime-team-chat-backend
+echo "📦 Installing backend dependencies..."
 npm install
 
-echo "⚡ Starting backend..."
-# Run backend in the background
-node src/server.js &
-
-BACKEND_PID=$!
-echo "✅ Backend running with PID $BACKEND_PID"
-
 # -------------------------------
-# 2️⃣ Build & Serve Frontend
+# 2️⃣ Install and build frontend
 # -------------------------------
-echo "📦 Installing frontend dependencies..."
 cd ../teamchat-frontend
+echo "📦 Installing frontend dependencies..."
 npm install
 
 echo "🔨 Building frontend..."
 npm run build
 
-echo "🌐 Serving frontend statically..."
-# Use npx to avoid PATH issues on Windows/Linux
-npx serve -s build -l 3000 &
-
-FRONTEND_PID=$!
-echo "✅ Frontend running with PID $FRONTEND_PID at http://localhost:3000"
+# -------------------------------
+# 3️⃣ Move frontend build into backend
+# -------------------------------
+echo "📦 Moving frontend build into backend..."
+rm -rf ../realtime-team-chat-backend/public || true
+cp -r build ../realtime-team-chat-backend/public
 
 # -------------------------------
-# 3️⃣ Wait for processes
+# 4️⃣ Start backend (serves frontend automatically)
 # -------------------------------
-wait $BACKEND_PID $FRONTEND_PID
+cd ../realtime-team-chat-backend
+BACKEND_PORT=${PORT:-3000}
+export PORT=$BACKEND_PORT
+
+echo "⚡ Starting backend on port $BACKEND_PORT..."
+node src/server.js
