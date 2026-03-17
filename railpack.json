@@ -1,0 +1,4 @@
+{
+  "language": "node",
+  "start": "bash start.sh"
+}
