@@ -1,9 +1,7 @@
 // 🔥 LOAD ENV (FIXED PATH ISSUE)
-// 🔥 LOAD ENV (FIXED PATH ISSUE)
 const path2 = require("path");
-
 require("dotenv").config({
-  path: path2.join(__dirname, "../.env")  // ✅ only one level up: src/ -> root
+  path: path2.join(__dirname, "../.env")  // src/ -> root
 });
 
 console.log("ENV CHECK:", process.env.MONGODB_URI);
@@ -32,7 +30,7 @@ const server = http.createServer(app);
 // ✅ Socket.io (UPDATED FOR PRODUCTION)
 const io = new Server(server, {
     cors: {
-        origin: process.env.CLIENT_URL || "*", // allow all for deployment
+        origin: process.env.CLIENT_URL || "*",
         credentials: true
     },
     pingTimeout: process.env.SOCKET_PING_TIMEOUT ? parseInt(process.env.SOCKET_PING_TIMEOUT) : 60000,
@@ -66,7 +64,7 @@ app.use(cookieParser());
 // Sanitize data
 app.use(mongoSanitize());
 
-// ✅ CORS FIX (important for deployment)
+// ✅ CORS
 app.use(cors({
     origin: process.env.CLIENT_URL || "*",
     credentials: true
@@ -75,7 +73,7 @@ app.use(cors({
 // Compression
 app.use(compression());
 
-// Create uploads directory
+// Create uploads directories
 const uploadsDir = path.join(__dirname, '../uploads');
 const avatarsDir = path.join(uploadsDir, 'avatars');
 const filesDir = path.join(uploadsDir, 'files');
@@ -86,7 +84,7 @@ if (!fs.existsSync(avatarsDir)) fs.mkdirSync(avatarsDir);
 if (!fs.existsSync(filesDir)) fs.mkdirSync(filesDir);
 if (!fs.existsSync(thumbnailsDir)) fs.mkdirSync(thumbnailsDir);
 
-// Static folder
+// Static folder for uploads
 app.use('/uploads', express.static(uploadsDir));
 
 // Logging middleware
@@ -128,13 +126,11 @@ app.use('/api/workspaces', workspaceRoutes);
 app.use('/api/channels', channelRoutes);
 app.use('/api/messages', messageRoutes);
 
-// ❌ REMOVE old 404 BEFORE serving frontend
-
-// ✅ SERVE FRONTEND (IMPORTANT FOR SINGLE PLATFORM)
-app.use(express.static(path.join(__dirname, '../../teamchat-frontend/build')));
+// ✅ SERVE FRONTEND (Railway-friendly)
+app.use(express.static(path.join(__dirname, '../public')));
 
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../../teamchat-frontend/build/index.html'));
+    res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
 // Error handler (LAST)
