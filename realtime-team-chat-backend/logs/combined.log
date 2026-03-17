@@ -1,0 +1,303 @@
+{"level":"info","message":"🚀 Server running in development mode on port 5000","service":"team-chat-api","timestamp":"2025-12-21 09:51:54"}
+{"level":"info","message":"📡 Socket.IO server ready","service":"team-chat-api","timestamp":"2025-12-21 09:51:54"}
+{"level":"info","message":"🔗 Health check: http://localhost:5000/api/health","service":"team-chat-api","timestamp":"2025-12-21 09:51:54"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","service":"team-chat-api","timestamp":"2025-12-21 10:25:12"}
+{"level":"info","message":"📡 Socket.IO server ready","service":"team-chat-api","timestamp":"2025-12-21 10:25:12"}
+{"level":"info","message":"🔗 Health check: http://localhost:5000/api/health","service":"team-chat-api","timestamp":"2025-12-21 10:25:12"}
+{"level":"info","message":"GET /api/health - ::1","service":"team-chat-api","timestamp":"2025-12-21 10:25:23"}
+{"level":"info","message":"GET /favicon.ico - ::1","service":"team-chat-api","timestamp":"2025-12-21 10:25:23"}
+{"level":"info","message":"GET /api/auth/register - ::1","service":"team-chat-api","timestamp":"2025-12-21 10:26:51"}
+{"level":"info","message":"GET /api/auth/login - ::1","service":"team-chat-api","timestamp":"2025-12-21 10:27:13"}
+{"level":"info","message":"GET /api/auth/register - ::1","service":"team-chat-api","timestamp":"2025-12-21 10:29:01"}
+{"level":"info","message":"GET /api/health - ::1","service":"team-chat-api","timestamp":"2025-12-21 10:29:11"}
+{"level":"info","message":"POST /api/auth/register - ::1","service":"team-chat-api","timestamp":"2025-12-21 10:29:25"}
+{"level":"info","message":"POST /api/auth/login - ::1","service":"team-chat-api","timestamp":"2025-12-21 10:29:47"}
+{"level":"info","message":"GET /api/health - ::1","service":"team-chat-api","timestamp":"2025-12-21 10:30:44"}
+{"level":"info","message":"POST /api/auth/register - ::1","service":"team-chat-api","timestamp":"2025-12-21 10:30:52"}
+{"level":"info","message":"GET /api/health - ::1","service":"team-chat-api","timestamp":"2025-12-21 10:30:59"}
+{"level":"info","message":"GET /api/auth/register - ::1","service":"team-chat-api","timestamp":"2025-12-21 10:32:06"}
+{"level":"info","message":"GET /api/health - ::1","service":"team-chat-api","timestamp":"2025-12-21 10:32:35"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","service":"team-chat-api","timestamp":"2025-12-21 10:56:56"}
+{"level":"info","message":"📡 Socket.IO server ready","service":"team-chat-api","timestamp":"2025-12-21 10:56:56"}
+{"level":"info","message":"🔗 Health check: http://localhost:5000/api/health","service":"team-chat-api","timestamp":"2025-12-21 10:56:56"}
+{"level":"info","message":"POST /api/auth/login - ::1","service":"team-chat-api","timestamp":"2025-12-21 10:58:01"}
+{"level":"error","message":"401 - Invalid credentials - /api/auth/login - POST - ::1","service":"team-chat-api","timestamp":"2025-12-21 10:58:01"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","service":"team-chat-api","timestamp":"2025-12-21 10:59:38"}
+{"level":"info","message":"📡 Socket.IO server ready","service":"team-chat-api","timestamp":"2025-12-21 10:59:38"}
+{"level":"info","message":"🔗 Health check: http://localhost:5000/api/health","service":"team-chat-api","timestamp":"2025-12-21 10:59:38"}
+{"level":"info","message":"POST /api/auth/login - ::1","service":"team-chat-api","timestamp":"2025-12-21 10:59:58"}
+{"level":"error","message":"401 - Invalid credentials - /api/auth/login - POST - ::1","service":"team-chat-api","timestamp":"2025-12-21 10:59:58"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","service":"team-chat-api","timestamp":"2025-12-21 11:01:48"}
+{"level":"info","message":"📡 Socket.IO server ready","service":"team-chat-api","timestamp":"2025-12-21 11:01:48"}
+{"level":"info","message":"🔗 Health check: http://localhost:5000/api/health","service":"team-chat-api","timestamp":"2025-12-21 11:01:48"}
+{"level":"info","message":"POST /api/auth/register - ::1","service":"team-chat-api","timestamp":"2025-12-21 11:02:16"}
+{"level":"info","message":"GET /api/health - ::1","service":"team-chat-api","timestamp":"2025-12-21 11:02:32"}
+{"level":"info","message":"POST /api/auth/login - ::1","service":"team-chat-api","timestamp":"2025-12-21 11:03:30"}
+{"level":"error","message":"401 - Invalid credentials - /api/auth/login - POST - ::1","service":"team-chat-api","timestamp":"2025-12-21 11:03:30"}
+{"level":"info","message":"POST /api/auth/login - ::1","service":"team-chat-api","timestamp":"2025-12-21 11:03:35"}
+{"level":"info","message":"POST /api/auth/login - ::1","service":"team-chat-api","timestamp":"2025-12-21 11:06:13"}
+{"level":"info","message":"GET /api/auth/me - ::1","service":"team-chat-api","timestamp":"2025-12-21 11:06:13"}
+{"level":"info","message":"GET /api/workspaces - ::1","service":"team-chat-api","timestamp":"2025-12-21 11:06:13"}
+{"level":"info","message":"GET /api/users/search?q=john - ::1","service":"team-chat-api","timestamp":"2025-12-21 11:06:13"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","service":"team-chat-api","timestamp":"2025-12-21 15:04:27"}
+{"level":"info","message":"📡 Socket.IO server ready","service":"team-chat-api","timestamp":"2025-12-21 15:04:27"}
+{"level":"info","message":"🔗 Health check: http://localhost:5000/api/health","service":"team-chat-api","timestamp":"2025-12-21 15:04:27"}
+{"level":"info","message":"GET /api/health - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:04:41"}
+{"level":"info","message":"POST /api/auth/login - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:05:31"}
+{"level":"error","message":"401 - Invalid credentials - /api/auth/login - POST - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:05:31"}
+{"level":"info","message":"POST /api/auth/login - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:05:37"}
+{"level":"error","message":"401 - Invalid credentials - /api/auth/login - POST - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:05:37"}
+{"level":"info","message":"POST /api/auth/register - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:05:47"}
+{"level":"error","message":"500 - E11000 duplicate key error collection: team_chat_db.users index: username_1 dup key: { username: \"admin\" } - /api/auth/register - POST - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:05:47"}
+{"level":"info","message":"POST /api/auth/register - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:06:04"}
+{"level":"info","message":"POST /api/auth/register - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:08:34"}
+{"level":"info","message":"POST /api/auth/login - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:13:52"}
+{"level":"info","message":"New socket connection: 32Jz5z2B7-KntnrUAAAB","service":"team-chat-api","timestamp":"2025-12-21 15:13:52"}
+{"level":"info","message":"User authenticated: adminfr (6947bf8436b8e01df6fe0c38)","service":"team-chat-api","timestamp":"2025-12-21 15:13:52"}
+{"level":"info","message":"User 6947bf8436b8e01df6fe0c38 joined channel general","service":"team-chat-api","timestamp":"2025-12-21 15:13:52"}
+{"level":"info","message":"Message sent to channel general by adminfr","service":"team-chat-api","timestamp":"2025-12-21 15:13:57"}
+{"level":"info","message":"Message sent to channel general by adminfr","service":"team-chat-api","timestamp":"2025-12-21 15:14:06"}
+{"level":"info","message":"Message sent to channel general by adminfr","service":"team-chat-api","timestamp":"2025-12-21 15:14:07"}
+{"level":"info","message":"Message sent to channel general by adminfr","service":"team-chat-api","timestamp":"2025-12-21 15:14:09"}
+{"level":"info","message":"Message sent to channel general by adminfr","service":"team-chat-api","timestamp":"2025-12-21 15:14:10"}
+{"level":"info","message":"Message sent to channel general by adminfr","service":"team-chat-api","timestamp":"2025-12-21 15:14:11"}
+{"level":"info","message":"Message sent to channel general by adminfr","service":"team-chat-api","timestamp":"2025-12-21 15:14:12"}
+{"level":"info","message":"Message sent to channel general by adminfr","service":"team-chat-api","timestamp":"2025-12-21 15:14:57"}
+{"level":"info","message":"POST /api/auth/register - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:16:23"}
+{"level":"info","message":"New socket connection: jKRktpYkBT7JLhLvAAAD","service":"team-chat-api","timestamp":"2025-12-21 15:16:23"}
+{"level":"info","message":"User authenticated: Raaz (6947c1ef36b8e01df6fe0c42)","service":"team-chat-api","timestamp":"2025-12-21 15:16:23"}
+{"level":"info","message":"User 6947c1ef36b8e01df6fe0c42 joined channel general","service":"team-chat-api","timestamp":"2025-12-21 15:16:23"}
+{"level":"info","message":"Message sent to channel general by Raaz","service":"team-chat-api","timestamp":"2025-12-21 15:16:29"}
+{"level":"info","message":"Message sent to channel general by adminfr","service":"team-chat-api","timestamp":"2025-12-21 15:16:33"}
+{"level":"info","message":"Message sent to channel general by adminfr","service":"team-chat-api","timestamp":"2025-12-21 15:16:39"}
+{"level":"info","message":"Message sent to channel general by Raaz","service":"team-chat-api","timestamp":"2025-12-21 15:16:44"}
+{"level":"info","message":"Message sent to channel general by adminfr","service":"team-chat-api","timestamp":"2025-12-21 15:18:07"}
+{"level":"info","message":"Message sent to channel general by Raaz","service":"team-chat-api","timestamp":"2025-12-21 15:18:12"}
+{"level":"info","message":"POST /api/auth/register - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:18:55"}
+{"level":"info","message":"New socket connection: OBbDaboYV024zWOQAAAF","service":"team-chat-api","timestamp":"2025-12-21 15:18:55"}
+{"level":"info","message":"User authenticated: Barry (6947c28736b8e01df6fe0c47)","service":"team-chat-api","timestamp":"2025-12-21 15:18:55"}
+{"level":"info","message":"User 6947c28736b8e01df6fe0c47 joined channel general","service":"team-chat-api","timestamp":"2025-12-21 15:18:55"}
+{"level":"info","message":"Message sent to channel general by Barry","service":"team-chat-api","timestamp":"2025-12-21 15:19:02"}
+{"level":"info","message":"Message sent to channel general by adminfr","service":"team-chat-api","timestamp":"2025-12-21 15:19:08"}
+{"level":"info","message":"Message sent to channel general by adminfr","service":"team-chat-api","timestamp":"2025-12-21 15:19:11"}
+{"level":"info","message":"Message sent to channel general by Raaz","service":"team-chat-api","timestamp":"2025-12-21 15:19:19"}
+{"level":"info","message":"Message sent to channel general by Raaz","service":"team-chat-api","timestamp":"2025-12-21 15:20:43"}
+{"level":"info","message":"Message sent to channel general by Barry","service":"team-chat-api","timestamp":"2025-12-21 15:20:51"}
+{"level":"info","message":"Message sent to channel general by Barry","service":"team-chat-api","timestamp":"2025-12-21 15:20:54"}
+{"level":"info","message":"Message sent to channel general by Barry","service":"team-chat-api","timestamp":"2025-12-21 15:20:55"}
+{"level":"info","message":"Message sent to channel general by Barry","service":"team-chat-api","timestamp":"2025-12-21 15:20:56"}
+{"level":"info","message":"Message sent to channel general by Barry","service":"team-chat-api","timestamp":"2025-12-21 15:20:58"}
+{"level":"info","message":"User adminfr disconnected","service":"team-chat-api","timestamp":"2025-12-21 15:21:49"}
+{"level":"info","message":"Socket disconnected: 32Jz5z2B7-KntnrUAAAB","service":"team-chat-api","timestamp":"2025-12-21 15:21:49"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","service":"team-chat-api","timestamp":"2025-12-21 15:28:05"}
+{"level":"info","message":"📡 Socket.IO server ready","service":"team-chat-api","timestamp":"2025-12-21 15:28:05"}
+{"level":"info","message":"🔗 Health check: http://localhost:5000/api/health","service":"team-chat-api","timestamp":"2025-12-21 15:28:05"}
+{"level":"info","message":"New socket connection: oHVFKB7OMXhqUnNoAAAB","service":"team-chat-api","timestamp":"2025-12-21 15:28:06"}
+{"level":"info","message":"User Barry connected from device oHVFKB7OMXhqUnNoAAAB","service":"team-chat-api","timestamp":"2025-12-21 15:28:06"}
+{"level":"info","message":"Barry joined channel: general","service":"team-chat-api","timestamp":"2025-12-21 15:28:06"}
+{"level":"info","message":"New socket connection: 7Zu91R2h7Dg3wDBYAAAD","service":"team-chat-api","timestamp":"2025-12-21 15:28:11"}
+{"level":"info","message":"User Raaz connected from device 7Zu91R2h7Dg3wDBYAAAD","service":"team-chat-api","timestamp":"2025-12-21 15:28:11"}
+{"level":"info","message":"Raaz joined channel: general","service":"team-chat-api","timestamp":"2025-12-21 15:28:11"}
+{"level":"info","message":"New socket connection: G1JMV-7y4EckHJ9IAAAG","service":"team-chat-api","timestamp":"2025-12-21 15:28:29"}
+{"level":"info","message":"New socket connection: bGXOamffSFIWYb5zAAAH","service":"team-chat-api","timestamp":"2025-12-21 15:28:29"}
+{"level":"info","message":"User adminfr connected from device bGXOamffSFIWYb5zAAAH","service":"team-chat-api","timestamp":"2025-12-21 15:28:29"}
+{"level":"info","message":"User adminfr connected from device bGXOamffSFIWYb5zAAAH","service":"team-chat-api","timestamp":"2025-12-21 15:28:29"}
+{"level":"info","message":"adminfr joined channel: general","service":"team-chat-api","timestamp":"2025-12-21 15:28:29"}
+{"level":"info","message":"adminfr joined channel: general","service":"team-chat-api","timestamp":"2025-12-21 15:28:29"}
+{"level":"info","message":"User Barry disconnected from device oHVFKB7OMXhqUnNoAAAB","service":"team-chat-api","timestamp":"2025-12-21 15:30:31"}
+{"level":"info","message":"Remaining devices for Barry: 0","service":"team-chat-api","timestamp":"2025-12-21 15:30:31"}
+{"level":"info","message":"Socket disconnected: oHVFKB7OMXhqUnNoAAAB","service":"team-chat-api","timestamp":"2025-12-21 15:30:31"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:30:36"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:30:48"}
+{"level":"info","message":"User Raaz disconnected from device 7Zu91R2h7Dg3wDBYAAAD","service":"team-chat-api","timestamp":"2025-12-21 15:30:58"}
+{"level":"info","message":"Remaining devices for Raaz: 0","service":"team-chat-api","timestamp":"2025-12-21 15:30:58"}
+{"level":"info","message":"Socket disconnected: 7Zu91R2h7Dg3wDBYAAAD","service":"team-chat-api","timestamp":"2025-12-21 15:30:58"}
+{"level":"info","message":"New socket connection: YH3Mc2INjd1Y787YAAAK","service":"team-chat-api","timestamp":"2025-12-21 15:30:59"}
+{"level":"info","message":"New socket connection: 3PWOv-zZFcwtemnXAAAL","service":"team-chat-api","timestamp":"2025-12-21 15:30:59"}
+{"level":"info","message":"User Raaz connected from device 3PWOv-zZFcwtemnXAAAL","service":"team-chat-api","timestamp":"2025-12-21 15:30:59"}
+{"level":"info","message":"User Raaz connected from device 3PWOv-zZFcwtemnXAAAL","service":"team-chat-api","timestamp":"2025-12-21 15:30:59"}
+{"level":"info","message":"Raaz joined channel: general","service":"team-chat-api","timestamp":"2025-12-21 15:30:59"}
+{"level":"info","message":"Raaz joined channel: general","service":"team-chat-api","timestamp":"2025-12-21 15:30:59"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:31:11"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:31:21"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:31:59"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:32:20"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:32:21"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:32:22"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:32:22"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:32:23"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:32:24"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:32:25"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:32:26"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:32:26"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:32:27"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:32:28"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:32:29"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:32:30"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:32:30"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:32:31"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:32:32"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:32:33"}
+{"level":"info","message":"New socket connection: DcJF3P70RPStVzrBAAAN","service":"team-chat-api","timestamp":"2025-12-21 15:36:46"}
+{"level":"info","message":"New socket connection: 84JK2qMIdXoNNalBAAAP","service":"team-chat-api","timestamp":"2025-12-21 15:36:46"}
+{"level":"info","message":"New socket connection: NM1FFGUP4fkBC4P2AAAS","service":"team-chat-api","timestamp":"2025-12-21 15:36:56"}
+{"level":"info","message":"Socket disconnected: YH3Mc2INjd1Y787YAAAK","service":"team-chat-api","timestamp":"2025-12-21 15:37:10"}
+{"level":"info","message":"Socket disconnected: DcJF3P70RPStVzrBAAAN","service":"team-chat-api","timestamp":"2025-12-21 15:37:10"}
+{"level":"info","message":"User Raaz disconnected from device 3PWOv-zZFcwtemnXAAAL","service":"team-chat-api","timestamp":"2025-12-21 15:37:10"}
+{"level":"info","message":"Remaining devices for Raaz: 0","service":"team-chat-api","timestamp":"2025-12-21 15:37:10"}
+{"level":"info","message":"Socket disconnected: 3PWOv-zZFcwtemnXAAAL","service":"team-chat-api","timestamp":"2025-12-21 15:37:10"}
+{"level":"info","message":"New socket connection: fwqzH_fAVt1G-1BmAAAV","service":"team-chat-api","timestamp":"2025-12-21 15:37:10"}
+{"level":"info","message":"Socket disconnected: fwqzH_fAVt1G-1BmAAAV","service":"team-chat-api","timestamp":"2025-12-21 15:37:28"}
+{"level":"info","message":"Socket disconnected: NM1FFGUP4fkBC4P2AAAS","service":"team-chat-api","timestamp":"2025-12-21 15:37:31"}
+{"level":"info","message":"Socket disconnected: G1JMV-7y4EckHJ9IAAAG","service":"team-chat-api","timestamp":"2025-12-21 15:37:31"}
+{"level":"info","message":"Socket disconnected: 84JK2qMIdXoNNalBAAAP","service":"team-chat-api","timestamp":"2025-12-21 15:37:31"}
+{"level":"info","message":"User adminfr disconnected from device bGXOamffSFIWYb5zAAAH","service":"team-chat-api","timestamp":"2025-12-21 15:37:31"}
+{"level":"info","message":"Remaining devices for adminfr: 0","service":"team-chat-api","timestamp":"2025-12-21 15:37:31"}
+{"level":"info","message":"Socket disconnected: bGXOamffSFIWYb5zAAAH","service":"team-chat-api","timestamp":"2025-12-21 15:37:31"}
+{"level":"info","message":"New socket connection: OVsCFVauhwS1RdU2AAAY","service":"team-chat-api","timestamp":"2025-12-21 15:39:18"}
+{"level":"info","message":"New socket connection: Jy1galN2uX3B_Mj7AAAZ","service":"team-chat-api","timestamp":"2025-12-21 15:39:18"}
+{"level":"info","message":"User adminfr connected from device Jy1galN2uX3B_Mj7AAAZ","service":"team-chat-api","timestamp":"2025-12-21 15:39:18"}
+{"level":"info","message":"User adminfr connected from device Jy1galN2uX3B_Mj7AAAZ","service":"team-chat-api","timestamp":"2025-12-21 15:39:18"}
+{"level":"info","message":"adminfr joined channel: general","service":"team-chat-api","timestamp":"2025-12-21 15:39:18"}
+{"level":"info","message":"adminfr joined channel: general","service":"team-chat-api","timestamp":"2025-12-21 15:39:18"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:39:23"}
+{"level":"info","message":"POST /api/auth/register - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:39:58"}
+{"level":"info","message":"New socket connection: Z8bsZBJpKT0QcBdrAAAb","service":"team-chat-api","timestamp":"2025-12-21 15:39:58"}
+{"level":"info","message":"User Jack connected from device Z8bsZBJpKT0QcBdrAAAb","service":"team-chat-api","timestamp":"2025-12-21 15:39:58"}
+{"level":"info","message":"Jack joined channel: general","service":"team-chat-api","timestamp":"2025-12-21 15:39:58"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:40:06"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:40:14"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:40:17"}
+{"level":"info","message":"User Jack disconnected from device Z8bsZBJpKT0QcBdrAAAb","service":"team-chat-api","timestamp":"2025-12-21 15:40:28"}
+{"level":"info","message":"Remaining devices for Jack: 0","service":"team-chat-api","timestamp":"2025-12-21 15:40:28"}
+{"level":"info","message":"Socket disconnected: Z8bsZBJpKT0QcBdrAAAb","service":"team-chat-api","timestamp":"2025-12-21 15:40:28"}
+{"level":"info","message":"POST /api/auth/register - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:41:06"}
+{"level":"error","message":"500 - User validation failed: username: Username must be at least 3 characters - /api/auth/register - POST - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:41:06"}
+{"level":"info","message":"POST /api/auth/register - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:41:12"}
+{"level":"info","message":"New socket connection: SPJjImTJLBXGE6oDAAAd","service":"team-chat-api","timestamp":"2025-12-21 15:41:12"}
+{"level":"info","message":"User df2 connected from device SPJjImTJLBXGE6oDAAAd","service":"team-chat-api","timestamp":"2025-12-21 15:41:12"}
+{"level":"info","message":"df2 joined channel: general","service":"team-chat-api","timestamp":"2025-12-21 15:41:12"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:41:15"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","service":"team-chat-api","timestamp":"2025-12-21 15:42:20"}
+{"level":"info","message":"📡 Socket.IO server ready","service":"team-chat-api","timestamp":"2025-12-21 15:42:20"}
+{"level":"info","message":"🔗 Health check: http://localhost:5000/api/health","service":"team-chat-api","timestamp":"2025-12-21 15:42:20"}
+{"level":"info","message":"New socket connection: AQJns-3sggFglQaDAAAB","service":"team-chat-api","timestamp":"2025-12-21 15:42:22"}
+{"level":"info","message":"User adminfr connected from device AQJns-3sggFglQaDAAAB","service":"team-chat-api","timestamp":"2025-12-21 15:42:22"}
+{"level":"info","message":"adminfr joined channel: general","service":"team-chat-api","timestamp":"2025-12-21 15:42:22"}
+{"level":"info","message":"New socket connection: HKEM5osLZlyGOJtHAAAE","service":"team-chat-api","timestamp":"2025-12-21 15:42:23"}
+{"level":"info","message":"New socket connection: rLHQE2WG_RSCT4HfAAAF","service":"team-chat-api","timestamp":"2025-12-21 15:42:23"}
+{"level":"info","message":"User df2 connected from device rLHQE2WG_RSCT4HfAAAF","service":"team-chat-api","timestamp":"2025-12-21 15:42:23"}
+{"level":"info","message":"User adminfr connected from device AQJns-3sggFglQaDAAAB","service":"team-chat-api","timestamp":"2025-12-21 15:42:23"}
+{"level":"info","message":"df2 joined channel: general","service":"team-chat-api","timestamp":"2025-12-21 15:42:23"}
+{"level":"info","message":"adminfr joined channel: general","service":"team-chat-api","timestamp":"2025-12-21 15:42:23"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:42:31"}
+{"level":"info","message":"Socket disconnected: HKEM5osLZlyGOJtHAAAE","service":"team-chat-api","timestamp":"2025-12-21 15:42:35"}
+{"level":"info","message":"User adminfr disconnected from device AQJns-3sggFglQaDAAAB","service":"team-chat-api","timestamp":"2025-12-21 15:42:35"}
+{"level":"info","message":"Remaining devices for adminfr: 0","service":"team-chat-api","timestamp":"2025-12-21 15:42:35"}
+{"level":"info","message":"Socket disconnected: AQJns-3sggFglQaDAAAB","service":"team-chat-api","timestamp":"2025-12-21 15:42:35"}
+{"level":"info","message":"User df2 disconnected from device rLHQE2WG_RSCT4HfAAAF","service":"team-chat-api","timestamp":"2025-12-21 15:42:36"}
+{"level":"info","message":"Remaining devices for df2: 0","service":"team-chat-api","timestamp":"2025-12-21 15:42:36"}
+{"level":"info","message":"Socket disconnected: rLHQE2WG_RSCT4HfAAAF","service":"team-chat-api","timestamp":"2025-12-21 15:42:36"}
+{"level":"info","message":"New socket connection: 6gOMYbuuP69Bwuj2AAAI","service":"team-chat-api","timestamp":"2025-12-21 15:43:44"}
+{"level":"info","message":"New socket connection: gAzrMMejIlDYGHrbAAAJ","service":"team-chat-api","timestamp":"2025-12-21 15:43:44"}
+{"level":"info","message":"User adminfr connected from device gAzrMMejIlDYGHrbAAAJ","service":"team-chat-api","timestamp":"2025-12-21 15:43:44"}
+{"level":"info","message":"User adminfr connected from device gAzrMMejIlDYGHrbAAAJ","service":"team-chat-api","timestamp":"2025-12-21 15:43:44"}
+{"level":"info","message":"adminfr joined channel: general","service":"team-chat-api","timestamp":"2025-12-21 15:43:44"}
+{"level":"info","message":"adminfr joined channel: general","service":"team-chat-api","timestamp":"2025-12-21 15:43:44"}
+{"level":"info","message":"GET /api/health - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:43:51"}
+{"level":"info","message":"Socket disconnected: 6gOMYbuuP69Bwuj2AAAI","service":"team-chat-api","timestamp":"2025-12-21 15:43:51"}
+{"level":"info","message":"User adminfr disconnected from device gAzrMMejIlDYGHrbAAAJ","service":"team-chat-api","timestamp":"2025-12-21 15:43:51"}
+{"level":"info","message":"Remaining devices for adminfr: 0","service":"team-chat-api","timestamp":"2025-12-21 15:43:51"}
+{"level":"info","message":"Socket disconnected: gAzrMMejIlDYGHrbAAAJ","service":"team-chat-api","timestamp":"2025-12-21 15:43:51"}
+{"level":"info","message":"GET / - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:00"}
+{"level":"info","message":"GET / - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:30"}
+{"level":"info","message":"GET /favicon.ico - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:30"}
+{"level":"info","message":"GET / - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:31"}
+{"level":"info","message":"GET /favicon.ico - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:31"}
+{"level":"info","message":"GET / - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:31"}
+{"level":"info","message":"GET /favicon.ico - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:31"}
+{"level":"info","message":"GET / - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:31"}
+{"level":"info","message":"GET /favicon.ico - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:31"}
+{"level":"info","message":"GET / - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:31"}
+{"level":"info","message":"GET /favicon.ico - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:31"}
+{"level":"info","message":"GET / - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:32"}
+{"level":"info","message":"GET /favicon.ico - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:32"}
+{"level":"info","message":"GET / - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:32"}
+{"level":"info","message":"GET /favicon.ico - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:32"}
+{"level":"info","message":"GET / - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:32"}
+{"level":"info","message":"GET /favicon.ico - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:32"}
+{"level":"info","message":"GET / - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:32"}
+{"level":"info","message":"GET /favicon.ico - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:44:32"}
+{"level":"info","message":"GET / - ::1","service":"team-chat-api","timestamp":"2025-12-21 15:48:20"}
+{"level":"info","message":"New socket connection: A7c8mrdL0tLpxttnAAAM","service":"team-chat-api","timestamp":"2025-12-21 15:48:34"}
+{"level":"info","message":"New socket connection: biSLZXD769kbcTMkAAAN","service":"team-chat-api","timestamp":"2025-12-21 15:48:34"}
+{"level":"info","message":"User adminfr connected from device biSLZXD769kbcTMkAAAN","service":"team-chat-api","timestamp":"2025-12-21 15:48:34"}
+{"level":"info","message":"User adminfr connected from device biSLZXD769kbcTMkAAAN","service":"team-chat-api","timestamp":"2025-12-21 15:48:34"}
+{"level":"info","message":"adminfr joined channel: general","service":"team-chat-api","timestamp":"2025-12-21 15:48:34"}
+{"level":"info","message":"adminfr joined channel: general","service":"team-chat-api","timestamp":"2025-12-21 15:48:34"}
+{"level":"error","message":"Message sending error: Message validation failed: channel: Cast to ObjectId failed for value \"general\" (type string) at path \"channel\" because of \"BSONError\"","service":"team-chat-api","timestamp":"2025-12-21 15:48:39"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","service":"team-chat-api","timestamp":"2025-12-21 15:49:06"}
+{"level":"info","message":"📡 Socket.IO server ready","service":"team-chat-api","timestamp":"2025-12-21 15:49:06"}
+{"level":"info","message":"🔗 Health check: http://localhost:5000/api/health","service":"team-chat-api","timestamp":"2025-12-21 15:49:06"}
+{"level":"info","message":"New socket connection: 70plKISJVQdYEcHJAAAC","service":"team-chat-api","timestamp":"2025-12-21 15:49:06"}
+{"level":"info","message":"New socket connection: 3MpSKMojxMJ5Ub_HAAAD","service":"team-chat-api","timestamp":"2025-12-21 15:49:06"}
+{"level":"info","message":"User authenticated: adminfr (6947bf8436b8e01df6fe0c38)","service":"team-chat-api","timestamp":"2025-12-21 15:49:06"}
+{"level":"info","message":"User authenticated: adminfr (6947bf8436b8e01df6fe0c38)","service":"team-chat-api","timestamp":"2025-12-21 15:49:06"}
+{"level":"info","message":"User 6947bf8436b8e01df6fe0c38 joined channel general","service":"team-chat-api","timestamp":"2025-12-21 15:49:06"}
+{"level":"info","message":"User 6947bf8436b8e01df6fe0c38 joined channel general","service":"team-chat-api","timestamp":"2025-12-21 15:49:06"}
+{"level":"info","message":"New socket connection: MLG3jCf2fgUSgMA2AAAG","service":"team-chat-api","timestamp":"2025-12-21 15:49:22"}
+{"level":"info","message":"New socket connection: I-zfC0Zn-MHvhy0eAAAH","service":"team-chat-api","timestamp":"2025-12-21 15:49:22"}
+{"level":"info","message":"User authenticated: adminfr (6947bf8436b8e01df6fe0c38)","service":"team-chat-api","timestamp":"2025-12-21 15:49:22"}
+{"level":"info","message":"User authenticated: adminfr (6947bf8436b8e01df6fe0c38)","service":"team-chat-api","timestamp":"2025-12-21 15:49:22"}
+{"level":"info","message":"User 6947bf8436b8e01df6fe0c38 joined channel general","service":"team-chat-api","timestamp":"2025-12-21 15:49:22"}
+{"level":"info","message":"User 6947bf8436b8e01df6fe0c38 joined channel general","service":"team-chat-api","timestamp":"2025-12-21 15:49:22"}
+{"level":"info","message":"Message sent to channel general by adminfr","service":"team-chat-api","timestamp":"2025-12-21 15:49:26"}
+{"level":"info","message":"New socket connection: Yl7r4_DKcK68YB2AAAAK","service":"team-chat-api","timestamp":"2025-12-21 15:49:51"}
+{"level":"info","message":"New socket connection: JWb0KE7rLDoYbDKEAAAL","service":"team-chat-api","timestamp":"2025-12-21 15:49:51"}
+{"level":"info","message":"User authenticated: df2 (6947c7c00022bc65988d3a9f)","service":"team-chat-api","timestamp":"2025-12-21 15:49:51"}
+{"level":"info","message":"User authenticated: df2 (6947c7c00022bc65988d3a9f)","service":"team-chat-api","timestamp":"2025-12-21 15:49:51"}
+{"level":"info","message":"User 6947c7c00022bc65988d3a9f joined channel general","service":"team-chat-api","timestamp":"2025-12-21 15:49:51"}
+{"level":"info","message":"User 6947c7c00022bc65988d3a9f joined channel general","service":"team-chat-api","timestamp":"2025-12-21 15:49:51"}
+{"level":"info","message":"Message sent to channel general by df2","service":"team-chat-api","timestamp":"2025-12-21 15:49:55"}
+{"level":"info","message":"Message sent to channel general by df2","service":"team-chat-api","timestamp":"2025-12-21 15:50:02"}
+{"level":"info","message":"Message sent to channel general by df2","service":"team-chat-api","timestamp":"2025-12-21 15:50:04"}
+{"level":"info","message":"Message sent to channel general by df2","service":"team-chat-api","timestamp":"2025-12-21 15:50:06"}
+{"level":"info","message":"Message sent to channel general by df2","service":"team-chat-api","timestamp":"2025-12-21 15:50:07"}
+{"level":"info","message":"Message sent to channel general by df2","service":"team-chat-api","timestamp":"2025-12-21 15:50:08"}
+{"level":"info","message":"Message sent to channel general by adminfr","service":"team-chat-api","timestamp":"2025-12-21 15:50:30"}
+{"level":"info","message":"Message sent to channel general by df2","service":"team-chat-api","timestamp":"2025-12-21 15:50:33"}
+{"level":"info","message":"Message sent to channel general by df2","service":"team-chat-api","timestamp":"2025-12-21 15:50:41"}
+{"level":"info","message":"Socket disconnected: Yl7r4_DKcK68YB2AAAAK","service":"team-chat-api","timestamp":"2025-12-21 15:51:00"}
+{"level":"info","message":"User df2 disconnected","service":"team-chat-api","timestamp":"2025-12-21 15:51:00"}
+{"level":"info","message":"Socket disconnected: JWb0KE7rLDoYbDKEAAAL","service":"team-chat-api","timestamp":"2025-12-21 15:51:00"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","service":"team-chat-api","timestamp":"2025-12-21 19:19:37"}
+{"level":"info","message":"📡 Socket.IO server ready","service":"team-chat-api","timestamp":"2025-12-21 19:19:37"}
+{"level":"info","message":"🔗 Health check: http://localhost:5000/api/health","service":"team-chat-api","timestamp":"2025-12-21 19:19:37"}
+{"level":"info","message":"New socket connection: ic5TsGd2rVqp5kihAAAC","service":"team-chat-api","timestamp":"2025-12-21 19:20:08"}
+{"level":"info","message":"New socket connection: EwcTl7Fopppk72RBAAAD","service":"team-chat-api","timestamp":"2025-12-21 19:20:08"}
+{"level":"info","message":"User authenticated: adminfr (6947bf8436b8e01df6fe0c38)","service":"team-chat-api","timestamp":"2025-12-21 19:20:08"}
+{"level":"info","message":"User authenticated: adminfr (6947bf8436b8e01df6fe0c38)","service":"team-chat-api","timestamp":"2025-12-21 19:20:08"}
+{"level":"info","message":"User 6947bf8436b8e01df6fe0c38 joined channel general","service":"team-chat-api","timestamp":"2025-12-21 19:20:08"}
+{"level":"info","message":"User 6947bf8436b8e01df6fe0c38 joined channel general","service":"team-chat-api","timestamp":"2025-12-21 19:20:08"}
+{"level":"info","message":"New socket connection: v8-_0afiHyUWlw7uAAAG","service":"team-chat-api","timestamp":"2025-12-21 19:20:37"}
+{"level":"info","message":"New socket connection: ilAhqe0Bet-K165sAAAH","service":"team-chat-api","timestamp":"2025-12-21 19:20:37"}
+{"level":"info","message":"User authenticated: Raaz (6947c1ef36b8e01df6fe0c42)","service":"team-chat-api","timestamp":"2025-12-21 19:20:37"}
+{"level":"info","message":"User authenticated: Raaz (6947c1ef36b8e01df6fe0c42)","service":"team-chat-api","timestamp":"2025-12-21 19:20:37"}
+{"level":"info","message":"User 6947c1ef36b8e01df6fe0c42 joined channel general","service":"team-chat-api","timestamp":"2025-12-21 19:20:37"}
+{"level":"info","message":"User 6947c1ef36b8e01df6fe0c42 joined channel general","service":"team-chat-api","timestamp":"2025-12-21 19:20:37"}
+{"level":"info","message":"Message sent to channel general by adminfr","service":"team-chat-api","timestamp":"2025-12-21 19:20:48"}
+{"level":"info","message":"Message sent to channel general by Raaz","service":"team-chat-api","timestamp":"2025-12-21 19:21:01"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","service":"team-chat-api","timestamp":"2026-03-17 14:58:00"}
+{"level":"info","message":"📡 Socket.IO server ready","service":"team-chat-api","timestamp":"2026-03-17 14:58:00"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","service":"team-chat-api","timestamp":"2026-03-17 15:02:24"}
+{"level":"info","message":"📡 Socket.IO server ready","service":"team-chat-api","timestamp":"2026-03-17 15:02:24"}
+{"level":"info","message":"GET / - ::1","service":"team-chat-api","timestamp":"2026-03-17 15:03:27"}
+{"level":"info","message":"GET /static/js/main.0484c00a.js - ::1","service":"team-chat-api","timestamp":"2026-03-17 15:03:27"}
+{"level":"info","message":"GET /static/css/main.c2b89e46.css - ::1","service":"team-chat-api","timestamp":"2026-03-17 15:03:27"}
+{"level":"info","message":"GET /manifest.json - ::1","service":"team-chat-api","timestamp":"2026-03-17 15:03:27"}
+{"level":"info","message":"GET /favicon.ico - ::1","service":"team-chat-api","timestamp":"2026-03-17 15:03:28"}
+{"level":"info","message":"GET /logo192.png - ::1","service":"team-chat-api","timestamp":"2026-03-17 15:03:28"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","service":"team-chat-api","timestamp":"2026-03-17 16:00:32"}
+{"level":"info","message":"📡 Socket.IO server ready","service":"team-chat-api","timestamp":"2026-03-17 16:00:32"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","service":"team-chat-api","timestamp":"2026-03-17 16:04:50"}
+{"level":"info","message":"📡 Socket.IO server ready","service":"team-chat-api","timestamp":"2026-03-17 16:04:50"}
