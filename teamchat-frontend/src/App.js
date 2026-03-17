@@ -3,7 +3,6 @@ import axios from 'axios';
 import io from 'socket.io-client';
 import './App.css';
 
-// ✅ UPDATED: Use Render backend URL
 const API_URL = 'https://web-app-team-chat.onrender.com/api';
 const SOCKET_URL = 'https://web-app-team-chat.onrender.com';
 
@@ -21,8 +20,6 @@ function App() {
   
   const [messages, setMessages] = useState([]);
   const [inputMessage, setInputMessage] = useState('');
-  const [currentChannel, setCurrentChannel] = useState('general');
-  const [onlineUsers, setOnlineUsers] = useState([]);
   const messagesEndRef = useRef(null);
 
   const scrollToBottom = () => {
@@ -33,7 +30,6 @@ function App() {
     scrollToBottom();
   }, [messages]);
 
-  // Check login
   useEffect(() => {
     const token = localStorage.getItem('token');
     const savedUser = localStorage.getItem('user');
@@ -47,14 +43,12 @@ function App() {
     }
   }, []);
 
-  // ✅ UPDATED SOCKET CONNECTION
   const connectSocket = (token, userData) => {
     socket = io(SOCKET_URL, {
       auth: { token }
     });
 
     socket.on('connect', () => {
-      console.log('✅ Connected to socket');
       socket.emit('authenticate', token);
     });
 
@@ -71,14 +65,6 @@ function App() {
         isYou: message.sender?._id === userData?._id
       }]);
     });
-
-    socket.on('user_online', (data) => {
-      setOnlineUsers(prev => [...prev, data.username]);
-    });
-
-    socket.on('user_offline', (data) => {
-      setOnlineUsers(prev => prev.filter(user => user !== data.username));
-    });
   };
 
   const loadSampleMessages = () => {
@@ -87,63 +73,51 @@ function App() {
     ]);
   };
 
-  // ✅ LOGIN
   const handleLogin = async (e) => {
     e.preventDefault();
     setLoading(true);
     setError('');
     
     try {
-      const response = await axios.post(`${API_URL}/auth/login`, {
-        email,
-        password
-      });
-      
-      localStorage.setItem('token', response.data.token);
-      localStorage.setItem('user', JSON.stringify(response.data.user));
-      setUser(response.data.user);
+      const res = await axios.post(`${API_URL}/auth/login`, { email, password });
+      localStorage.setItem('token', res.data.token);
+      localStorage.setItem('user', JSON.stringify(res.data.user));
+      setUser(res.data.user);
       setIsLoggedIn(true);
-      connectSocket(response.data.token, response.data.user);
+      connectSocket(res.data.token, res.data.user);
       loadSampleMessages();
     } catch (err) {
-      console.error(err);
       setError(err.response?.data?.error || 'Login failed');
     } finally {
       setLoading(false);
     }
   };
 
-  // ✅ REGISTER
   const handleRegister = async (e) => {
     e.preventDefault();
     setLoading(true);
     setError('');
     
     try {
-      const response = await axios.post(`${API_URL}/auth/register`, {
-        username,
-        email,
-        password
+      const res = await axios.post(`${API_URL}/auth/register`, {
+        username, email, password
       });
-      
-      localStorage.setItem('token', response.data.token);
-      localStorage.setItem('user', JSON.stringify(response.data.user));
-      setUser(response.data.user);
+      localStorage.setItem('token', res.data.token);
+      localStorage.setItem('user', JSON.stringify(res.data.user));
+      setUser(res.data.user);
       setIsLoggedIn(true);
-      connectSocket(response.data.token, response.data.user);
+      connectSocket(res.data.token, res.data.user);
       loadSampleMessages();
     } catch (err) {
-      console.error(err);
       setError(err.response?.data?.error || 'Registration failed');
     } finally {
       setLoading(false);
     }
   };
 
-  // SEND MESSAGE
   const sendMessage = () => {
     if (!inputMessage.trim()) return;
-    
+
     setMessages(prev => [...prev, {
       id: Date.now(),
       text: inputMessage,
@@ -152,12 +126,10 @@ function App() {
       isYou: true
     }]);
 
-    if (socket) {
-      socket.emit('send_message', {
-        channelId: 'general',
-        content: inputMessage
-      });
-    }
+    socket?.emit('send_message', {
+      channelId: 'general',
+      content: inputMessage
+    });
 
     setInputMessage('');
   };
@@ -166,7 +138,7 @@ function App() {
     localStorage.clear();
     setUser(null);
     setIsLoggedIn(false);
-    if (socket) socket.disconnect();
+    socket?.disconnect();
   };
 
   const handleKeyPress = (e) => {
@@ -181,66 +153,132 @@ function App() {
   if (isLoggedIn && user) {
     return (
       <div className="app">
-        <h2>TeamChat 💬</h2>
-        <button onClick={handleLogout}>Logout</button>
 
-        <div>
-          {messages.map(msg => (
-            <div key={msg.id}>
-              <b>{msg.sender}:</b> {msg.text}
+        <div className="chat-header">
+          <div className="header-left">
+            <div className="user-avatar">
+              {user.username?.charAt(0).toUpperCase()}
             </div>
-          ))}
+            <div>
+              <h2>{user.username}</h2>
+              <p>Online</p>
+            </div>
+          </div>
+
+          <div className="header-right">
+            <button className="logout-btn" onClick={handleLogout}>
+              Logout
+            </button>
+          </div>
         </div>
 
-        <input
-          value={inputMessage}
-          onChange={(e) => setInputMessage(e.target.value)}
-          onKeyPress={handleKeyPress}
-        />
-        <button onClick={sendMessage}>Send</button>
+        <div className="chat-container">
+          <div className="messages-container">
+            {messages.map(msg => (
+              <div key={msg.id} className={`message ${msg.isYou ? 'sent' : 'received'}`}>
+                
+                {!msg.isYou && (
+                  <div className="message-avatar">
+                    {msg.sender.charAt(0)}
+                  </div>
+                )}
+
+                <div className="message-content">
+                  {!msg.isYou && (
+                    <div className="sender-name">{msg.sender}</div>
+                  )}
+
+                  <div className="message-bubble">
+                    {msg.text}
+                    <div className="message-time">{msg.time}</div>
+                  </div>
+                </div>
+
+              </div>
+            ))}
+            <div ref={messagesEndRef} />
+          </div>
+
+          <div className="input-container">
+            <input
+              className="message-input"
+              value={inputMessage}
+              onChange={(e) => setInputMessage(e.target.value)}
+              onKeyPress={handleKeyPress}
+              placeholder="Type a message..."
+            />
+            <button className="send-btn" onClick={sendMessage}>
+              ➤
+            </button>
+          </div>
+        </div>
+
       </div>
     );
   }
 
   return (
-    <div>
-      <h1>TeamChat</h1>
+    <div className="auth-page">
+      <div className="auth-container">
+        <div className="auth-card">
 
-      <form onSubmit={isLogin ? handleLogin : handleRegister}>
-        {!isLogin && (
-          <input
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            placeholder="Username"
-            required
-          />
-        )}
+          <div className="app-logo">
+            <div className="logo-icon">💬</div>
+            <h1>TeamChat</h1>
+            <p>Chat like WhatsApp with your team</p>
+          </div>
 
-        <input
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          placeholder="Email"
-          required
-        />
+          <form onSubmit={isLogin ? handleLogin : handleRegister}>
 
-        <input
-          type="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          placeholder="Password"
-          required
-        />
+            {!isLogin && (
+              <div className="input-group">
+                <input
+                  value={username}
+                  onChange={(e) => setUsername(e.target.value)}
+                  placeholder="Username"
+                  required
+                />
+              </div>
+            )}
 
-        {error && <p style={{color:'red'}}>{error}</p>}
+            <div className="input-group">
+              <input
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Email"
+                required
+              />
+            </div>
 
-        <button type="submit">
-          {isLogin ? 'Login' : 'Register'}
-        </button>
-      </form>
+            <div className="input-group">
+              <input
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder="Password"
+                required
+              />
+            </div>
 
-      <p onClick={() => setIsLogin(!isLogin)} style={{cursor:'pointer'}}>
-        {isLogin ? 'Create account' : 'Login instead'}
-      </p>
+            {error && <div className="error-msg">{error}</div>}
+
+            <button className="auth-button" type="submit">
+              {loading ? 'Please wait...' : (isLogin ? 'Login' : 'Register')}
+            </button>
+
+          </form>
+
+          <div className="auth-footer">
+            <p>
+              {isLogin ? 'New user?' : 'Already have an account?'}{' '}
+              <span className="toggle-link" onClick={() => setIsLogin(!isLogin)}>
+                {isLogin ? 'Create account' : 'Login'}
+              </span>
+            </p>
+          </div>
+
+        </div>
+      </div>
     </div>
   );
 }
